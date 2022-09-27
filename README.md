@@ -1,4 +1,4 @@
-# React_Card
+# React Solo Project 1
 
 Quick start:
 
