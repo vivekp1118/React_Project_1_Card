@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+html{
+    display: flex;
+    justify-content: center;
+}
+body {
+font-family: 'Inter', sans-serif;
+background: #23252C;
+padding: 44px 116px; 
+max-width: 300px;
+position: absolute;
+}
+.Container-Main{
+      background: #1A1B21;
+      border-radius: 6px;
+}
+.Main-Img{
+    width: 100%;
+    max-height: auto;  
+}
+.Main-Info{
+    color: white;
+    text-align: center;
+    height: 399px;
+    padding:0px 35px; 
+
+}
+.Main-Info>p:nth-child(1){
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+margin-top: 21px;
+margin-bottom:6px; 
+color: #FFFFFF;  
+}
+.Main-Info>p:nth-child(2){
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+margin:0px 0px 9px 0px;
+color: #F3BF99;
+}
+.Main-Info>p:nth-child(3){
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+margin: 0px 0px 15px 0px;
+color: #F5F5F5;
+}
+.Main-Row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:17px;
+    flex:1;
+    margin-bottom:33px; 
+}
+.Main-Row>*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    position:relative ;
+    width: 115px;
+    height: 34px;
+    gap:8px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.Row-Btn-Mail{
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+border-radius: 6px;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.Row-Btn-Linkedn{
+background: #5093E2;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+border: 1px solid transparent;
+}
+.Main-About{
+    margin: 0;
+    text-align: left;
+}
+.Main-About>span{
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #F5F5F5;   
+}
+
+.Main-About>p{
+font-weight: 400;
+font-size: 10.24px;
+line-height: 15px;
+color: #DCDCDC;
+margin-top:5px; 
+margin-bottom:24px; 
+}
+
+footer{
+height: 64px;
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:24px;
+}
+
