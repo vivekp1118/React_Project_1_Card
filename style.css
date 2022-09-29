@@ -12,8 +12,8 @@ font-family: 'Inter', sans-serif;
 background: #23252C;
 padding: 44px 116px; 
 height: auto;
+max-width: 350px;
 overflow: scroll;
-max-width: 300px;
 overflow-x: hidden;
 }
 .Container-Main{
