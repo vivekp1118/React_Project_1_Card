@@ -18,7 +18,7 @@ overflow-x: hidden;
 }
 .Container-Main{
       background: #1A1B21;
-      border-radius: 6px;
+      border-radius: 6px 6px 0px 0px;
 }
 .Main-Img{
     width: 100%;
